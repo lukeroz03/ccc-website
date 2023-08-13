@@ -1,15 +1,17 @@
 import "./navBar.css";
+import { Outlet, Link } from 'react-router-dom';
 
 function NavBar() {
     return (
         <>
             <h1>Christendom College Coding Club</h1>
             <span className="topnav">
-                <a>Home </a>
-                <a>Members </a>
-                <a>Projects </a>
-                <a>Constitution </a>
+                <Link to="/">Home </Link>
+                <Link to="/members">Members </Link>
+                <Link to="/projects">Projects </Link>
+                <Link to="/constitution">Constitution </Link>
             </span>
+	    <Outlet />
         </>
     )
 }
