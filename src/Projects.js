@@ -1,7 +1,14 @@
-function Projects() {
+import Project from './Project.js';
+
+function Projects(props) {
   return (
     <div>
-      <h1>Projects</h1>
+	  {
+		  props.projects.map((project) => {
+			  return <Project project={project} />
+		  }
+	  )
+	  }
     </div>
   );
 }
