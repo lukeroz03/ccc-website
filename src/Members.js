@@ -1,8 +1,13 @@
-function Members() {
+import Member from "./Member";
+
+function Members(props) {
   return (
-    <div>
+    <>
       <h1>Members</h1>
-    </div>
+      {props.members.map((member) => {
+        return <Member member={member} />;
+      })}
+    </>
   );
 }
 
