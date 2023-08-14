@@ -1,5 +1,4 @@
 function Project(props) {
-	console.log(props.project);
 	return (
 		<div>
 		<div>{props.project.name}</div>
