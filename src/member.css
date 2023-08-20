@@ -1,0 +1,14 @@
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.members {
+  display: inline-block;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 100%;
+  padding: 5px;
+}
