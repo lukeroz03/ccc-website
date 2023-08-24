@@ -6,7 +6,7 @@ function Constitution() {
 		<h2> article zero: name and mission </h2>
 
 		<ol>
-		<li> The organization shall be called the 'Coding Club' within the college, and the 'Christendom College Coding Club' without (not simply the 'Christendom Coding Club', as that can be ambiguous.</li>
+		<li> The organization shall be called the 'Coding Club' within the college, and the 'Christendom College Coding Club' without (not simply the 'Christendom Coding Club', as that can be ambiguous).</li>
 		<li> The organization is not affiliated with any national or state organization. </li>
 		<li> The goal of the organization is to teach computer science, to provide projects for students to work on, to assist students in achieving employment in related fields, and most importantly to help them learn and admire the divine laws that organize and bind all information.</li>
 		</ol>
