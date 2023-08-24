@@ -1,0 +1,7 @@
+:root {
+	--primary-color: rgb(0, 0, 30);
+	--secondary-color: rgb(0,0,100);
+	--tertiary-color: rgb(100,100,100);
+	--text-color: white; 
+	--primary-font: monospace;
+}

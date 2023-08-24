@@ -27,10 +27,18 @@ function Projects() {
 	return (
 		<div>
 		<h1>Projects</h1>
+
 		<input type="text" placeholder="Search Projects" value={searchQuery} onChange={e => {handleSearch(e.target.value);}} />
+
+		<div style={{width:"100%"}}>
+		<div style={{"margin-left":"25%","margin-right":"25%",width:"50%"}}>
+
 		{filteredProjects.map((project) => {
-			return <Project key={project.link} project={project} />;
+			return <Project key={project.link} project={project}/>;
 		})}
+
+		</div>
+		</div>
 		</div>
 	);
 }

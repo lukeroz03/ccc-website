@@ -1,5 +1,74 @@
-span.topnav {
-  margin: 0px;
-  font-size: 3em;
-  display: inline-block;
+@import 'variables.css';
+
+.navbar {
+	background: var(--primary-color);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+}
+
+.terminal-prompt {
+	color: var(--secondary-color);
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+h1 {
+	color: var(--text-color);
+	font-size: 3em;
+	margin: 0px;
+}
+
+a {
+	color: var(--text-color);
+	font-size: 1.5em;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.spacer {
+	margin-top: 130px;
+	background: orange;
+}
+
+@media (max-width: 750px) {
+	.spacer {
+		margin-top: 170px;
+	}
+}
+
+@media (max-width: 600px) {
+	.navbar {
+		padding-left: auto;
+		padding-right: auto;
+	}
+	.spacer {
+		margin-top: 90px;
+	}
+	h1 {
+		font-size: 1em;
+		margin: 5px;
+		font-weight: bold;
+	}
+	h2 {
+		font-size: 1.2em;
+		margin: 5px;
+		font-weight: normal;
+	}
+
+	a {
+		font-size: 1.2em;
+		margin: 5px;
+	}
+	.terminal-prompt {
+		display: none;
+	}
+
+	.dashes {
+		display: none;
+	}
 }
