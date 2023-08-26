@@ -1,0 +1,17 @@
+.constitution-container {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.first-level {
+	list-style-type: decimal;
+}
+
+.second-level {
+	list-style-type: lower-roman;
+}
+
+li {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
