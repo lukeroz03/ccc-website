@@ -1,4 +1,6 @@
 import Project from "./Project";
+import LabelAndSearch from "./LabelAndSearch";
+import "./Projects.css";
 import { useState, useEffect } from "react";
 
 function Projects() {
@@ -33,19 +35,15 @@ function Projects() {
 	}
 
 	return (
-		<div>
-		<h1>Projects</h1>
+		<div className="projects-page">
+		<LabelAndSearch label="Club Projects" placeholder="Search" value={searchQuery} handleSearch={handleSearch} />
 
-		<input type="text" placeholder="Search Projects" value={searchQuery} onChange={e => {handleSearch(e.target.value);}} />
-
-		<div style={{width:"100%"}}>
-		<div style={{"margin-left":"25%","margin-right":"25%",width:"50%"}}>
+		<div className="projects-container">
 
 		{filteredProjects.map((project) => {
 			return <Project key={project.link} project={project}/>;
 		})}
 
-		</div>
 		</div>
 		</div>
 	);

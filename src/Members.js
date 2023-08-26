@@ -1,4 +1,5 @@
 import Member from "./Member";
+import LabelAndSearch from "./LabelAndSearch";
 import { useState, useEffect } from "react";
 
 function Members() {
@@ -28,6 +29,7 @@ function Members() {
 		<div>
 		<h1>Members</h1>
 		<input type="text" placeholder="Search Members" value={searchQuery} onChange={e => {handleSearch(e.target.value);}} />
+		<LabelAndSearch label="Club Members" placeholder="Search" value={searchQuery} handleSearch={handleSearch} />
 		{filteredMembers.map((member) => {
 			return <Member key={member.link} member={member} />;
 		})}

@@ -1,0 +1,17 @@
+@import "./variables.css";
+
+ .projects-page {
+	 margin-left: 25%;
+	 margin-right: 25%;
+	 width: 50%;
+}
+
+.projects-container {
+	padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+	.projects-container {
+		padding-top: 60px;
+	}
+}
