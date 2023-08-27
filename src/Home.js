@@ -12,7 +12,7 @@ function Home() {
 	  <h1>About This Website</h1>
 	  <p> We created this website to provide access to the <Link to="/projects">projects</Link> that we make together for Christendom students and anyone else who finds them useful, and to help prospective employers learn about our <Link to="/members">members</Link>.</p>
 	  <h1>Join Us</h1>
-	  <p>Membership is open to all Christendom students. If you are interested in joining, message us on <a href="https://discord.gg/tZ6eTDkpk8" target="_blank">Discord</a> or come to one of our scheduled meetings.</p>
+	  <p>Membership is open to all Christendom students. If you are interested in joining, <a href="https://discord.gg/rPUFDCZPVa" target="_blank">message us</a> or come to one of our <a href="https://discord.gg/nxRg9dPZQ6" target="_blank">scheduled meetings</a>.</p>
     </div>
     <div className="autotyper-image-container">
     <img src={image} />
