@@ -4,6 +4,7 @@ import Home from "./Home";
 import Constitution from "./Constitution";
 import Members from "./Members";
 import Projects from "./Projects";
+import "./App.css";
 
 function App() {
 

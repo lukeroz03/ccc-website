@@ -5,6 +5,7 @@
 	background: var(--secondary-color);
 	padding: 20px;
 	margin: 0;
+	top: 125px;
 	width: 50%;
 }
 
@@ -20,5 +21,21 @@
 	color: var(--text-color);
 	margin-left: 25%;
 	width: 50%;
+}
+
+@media (max-width: 750px) {
+	.label-and-search-container {
+		top: 180px;
+		left: 0;
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.label-and-search-container {
+		top: 80px;
+		left: 0;
+		width: 100%;
+	}
 }
 

@@ -8,19 +8,6 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, "build")));
 
-// const members = [
-// {
-// name:"Lewis (Joey) Thornberry",
-// link:"something.something.com",
-// grade:"Class of 2026"
-// },
-// {
-// name: "Luke Dreamy-Rozmajzl",
-// link: "something.something.com",
-// grade: "Class of 2026"
-// }
-// ];
-
 app.get("/api/members", (req, res) => {
   const db = new sqlite3.Database("./mainsite.db", (err) => {
     if (err) {
@@ -51,6 +38,10 @@ app.get("/api/projects", (req, res) => {
     res.json(rows);
     db.close();
   });
+});
+
+app.get("/api/autocode", (req,res) => {
+	res.sendFile(__dirname + "/autocode.txt")
 });
 
 // app.get('*', (req, res) => {

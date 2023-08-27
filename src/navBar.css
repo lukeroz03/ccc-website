@@ -8,7 +8,7 @@
 	width: 100%;
 	margin: 0;
 	padding: 20px;
-	height: 80px;
+	height: 85px;
 }
 
 .terminal-prompt {
@@ -24,7 +24,7 @@ h1 {
 	margin: 0px;
 }
 
-a {
+.navbar a {
 	color: var(--text-color);
 	font-size: 1.5em;
 	text-decoration: none;
@@ -37,6 +37,9 @@ a {
 }
 
 @media (max-width: 750px) {
+	.navbar {
+		height: 130px;
+	}
 	.spacer {
 		margin-top: 170px;
 	}

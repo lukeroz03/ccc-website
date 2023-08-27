@@ -1,14 +1,35 @@
-div.container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.member-container {
+	margin: 40px;
+}
+.member-image-container {
+	height: 250px;
+	width: 200px;
+	display: inline-block;
+}
+.member-container img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
-div.members {
-  display: inline-block;
-  border: 1px solid black;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  max-width: 100%;
-  padding: 5px;
+.member-info-container {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.member-info-container h1 {
+	margin: 0;
+	padding: 0;
+}
+.member-class {
+	margin: 5px;
+	margin-left: 30px;
+}
+
+@media (max-width: 1000px) {
+	.member-container {
+		width: 70%;
+	}
 }

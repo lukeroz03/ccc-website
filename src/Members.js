@@ -1,5 +1,6 @@
 import Member from "./Member";
 import LabelAndSearch from "./LabelAndSearch";
+import "./Members.css";
 import { useState, useEffect } from "react";
 
 function Members() {
@@ -26,13 +27,13 @@ function Members() {
 	}
 
 	return (
-		<div>
-		<h1>Members</h1>
-		<input type="text" placeholder="Search Members" value={searchQuery} onChange={e => {handleSearch(e.target.value);}} />
+		<div className="members-page">
 		<LabelAndSearch label="Club Members" placeholder="Search" value={searchQuery} handleSearch={handleSearch} />
+		<div className="members-container">
 		{filteredMembers.map((member) => {
 			return <Member key={member.link} member={member} />;
 		})}
+		</div>
 		</div>
 	);
 }

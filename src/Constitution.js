@@ -195,7 +195,7 @@ function Constitution() {
 	  majority of all Coders and Maintainers who are current students.
 	  </li>
 	  <li>
-	  If a Maintainer deliberately and/or out of negligence merges changes
+	  If a Maintainer deliberately and/or out of gross negligence (as opposed to giving an honest effort but simply not noticing the issue), merges changes
 	  that, when presented to the club's Advisor by any Coder or Maintainer,
 	  are deemed to be of a dangerously low quality, in the sense of either
 	  a crash risk, a data loss risk, or a security risk, they may be
@@ -210,8 +210,8 @@ function Constitution() {
 	  at the request of a Maintainer, until the start of the next semester.
 	  </li>
 	  <li>
-	  The club's President and/or Treasurer may be removed from office for
-	  any reason by a two thirds majority all Coders and
+	  The club's President,Treasurer, and/or Website Lead may be removed from office for
+	  any reason by a two thirds majority of all Coders and
 	  Maintainers who are current students, with the consent of the club's Advisor. An election for
 	  their replacement must take place the same calendar day.
 	  </li>

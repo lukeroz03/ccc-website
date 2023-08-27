@@ -1,0 +1,47 @@
+@import "./variables.css";
+
+.about-container {
+	background: var(--secondary-color);
+	height: 100%;
+	width: 40%;
+	line-height: 1.5;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2.5%;
+	margin-left: 5%;
+}
+.about-container p {
+	font-size: 1.5em;
+}
+
+.autotyper-image-container {
+	position: relative;
+	width: 40%;
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	/* https://stackoverflow.com/a/67440919 */
+	mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, transparent 120%);
+}
+.autotyper-image-container img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+	.autotyper-image-container {
+		display: none;
+	}
+	.about-container {
+		width: 100%;
+		margin: 0;
+	}
+	.about-container p {
+		font-size: 1em;
+	}
+}

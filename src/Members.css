@@ -1,0 +1,15 @@
+.members-page {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.members-container {
+	padding-top: 100px;
+}
+
+@media (max-width: 1000px) {
+	.members-page {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
