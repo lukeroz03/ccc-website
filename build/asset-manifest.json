@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4795d8c5.css",
+    "main.js": "/static/js/main.572b427d.js",
+    "static/media/screenshot.png": "/static/media/screenshot.3e55c033024f5bc31d85.png",
+    "static/media/headshot with dress clothes.jpg": "/static/media/headshot with dress clothes.da23398577c8d5773580.jpg",
+    "static/media/blue-computer-and-blackboard.jpg": "/static/media/blue-computer-and-blackboard.44a09be88fb7ff14b73a.jpg",
+    "index.html": "/index.html",
+    "main.4795d8c5.css.map": "/static/css/main.4795d8c5.css.map",
+    "main.572b427d.js.map": "/static/js/main.572b427d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4795d8c5.css",
+    "static/js/main.572b427d.js"
+  ]
+}
