@@ -9,7 +9,7 @@ function Members() {
 	const [filteredMembers, setFilteredMembers] = useState([]);
 	const [searchQuery, setSearchQuery] = useState("");
 	useEffect(() => {
-		fetch("http://localhost:5000/api/members")
+		fetch("http://3.17.192.123/api/members")
 			.then(res => res.json())
 			.then(data => {
 				setMembers(data);

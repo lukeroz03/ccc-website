@@ -8,7 +8,7 @@ function Projects() {
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   useEffect(() => {
-    fetch("http://localhost:5000/api/projects")
+    fetch("https://3.17.192.123/api/projects")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
