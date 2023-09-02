@@ -29,8 +29,8 @@ function Constitution() {
 	  <h2> article one: membership, rank, and office </h2>
 	  <ol className="first-level">
 	  <li> There are to be no requirements or fees for membership.</li>
-	  <li> Members can be one of three ranks, increasing in privelige.</li>
-	  <li> It should be noted that rank priveleges only apply to projects that are designated as official club projects (see article two). Projects that are not club projects are not bound by any rules in this document.</li>
+	  <li> Members can be one of three ranks, increasing in privilege.</li>
+	  <li> It should be noted that rank privileges only apply to projects that are designated as official club projects (see article two). Projects that are not club projects are not bound by any rules in this document.</li>
 	  <li> A club member keep may keep their rank after graduation until either they begin work at a computer science job, or the first day of classes the second school year after their graduation, whichever comes first. For example, a graduating senior in the 3005-3006 school year would retain their rank for the 3006-3007 school year and lose it at the start of the 3007-3008 chool year, or at the start of their first computer science job, if that came first. For simplicity, a member who keeps their rank in this way loses the vote their rank entitles them to in club decisions and elections.
 	  </li>
 	  <li> The ranks are to be as follows:
